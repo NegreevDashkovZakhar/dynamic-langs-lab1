@@ -12,6 +12,6 @@ def save_to_xlsx(properties: "list[Property]", file_name):
         worksheet.write('C{}'.format(i), property_.area)
         worksheet.write('D{}'.format(i), property_.description)
         worksheet.write('E{}'.format(i), property_.price)
-        i+=1
+        i += 1
 
     workbook.close()
